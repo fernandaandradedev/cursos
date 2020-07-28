@@ -1,0 +1,35 @@
+html * {
+    margin: 0px;
+    text-align: center;
+}
+
+.titulos {
+    background-color: gray;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+#titulo-h1 {
+    background-color: gray;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto1 {
+    margin: 0px 50px 10px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+} 
+
+#linha {
+    background-color: #663820;
+    height: 10px;
+    margin: 10px 0px;
+}

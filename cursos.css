@@ -1,0 +1,45 @@
+html * {
+    margin: 0px;
+    text-align: center;
+}
+
+.titulos {
+    background-color: blue;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    
+}
+
+#titulo-h1 {
+    background-color: gray;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#texto1 {
+    margin: 0px 50px 10px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    
+} 
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(3, 200px);
+   grid-template-rows: repeat(1, 300px);
+   grid-gap: 2px;
+}
+
+#linha {
+    background-color: #663820;
+    height: 10px;
+    margin: 10px 0px;
+}
