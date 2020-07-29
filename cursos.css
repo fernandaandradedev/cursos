@@ -19,27 +19,15 @@ html * {
     
 }
 
-#texto1 {
-    margin: 0px 50px 10px 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-    text-align: center;
-}
-
 img {
-    width: 100%;
-    
+    width: 300px;
+    object-fit: contain;    
 } 
 
-.grid {
+.grid-item {
    display: grid;
-   grid-template-columns: repeat(3, 200px);
-   grid-template-rows: repeat(1, 300px);
+   grid-template-rows: 1;
+   grid-template-columns: repeat(3, 600px);
    grid-gap: 2px;
-}
-
-#linha {
-    background-color: #663820;
-    height: 10px;
-    margin: 10px 0px;
+   
 }
